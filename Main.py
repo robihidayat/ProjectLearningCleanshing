@@ -10,20 +10,24 @@ jawab:
 1. text file
 2. read and write
 3. default
-When you’re working with Python,
-you don’t need to import a library in order to read and write files.
-It’s handled natively in the language, albeit in a unique manner.
 
-The first thing you’ll need to do is use Python’s built-in open function to get a file object.
+Saat kalian membuka file dengan python, kalian tidak perlu mengimport library apapun.
+kenapa ? karena sudah dihandle secara native oleh bahasa ini. meskipun dengan cara yang unik.
 
-The open function opens a file. It’s simple.
+pertama kalian akan membutuhkan function build in "open" dari bahasa python untuk membuat object file,
+fucntion open kemudian membuka file tersebut.
 
-When you use the open function, it returns something called a file object. File objects contain methods and attributes that can be used to collect information about the file you opened. They can also be used to manipulate said file.
+saat kalian menggunakan function open, return value nya disebut sebagai file object.
+file object mengandung metode dan atribut yang dapat digunakan untuk mengumpulkan informasi dari file yang kamu buka.
+nah function ini juga bisa digunakan untuk memanipulasi file.
 
-For example, the mode attribute of a file object tells you which mode a file was opened in. And the name attribute tells you the name of the file that the file object has opened.
-
-You must understand that a file and file object are two wholly separate – yet related – thing
+bagaimana caranya ?
+mudah sekali. bisa dicoba.
+sumber: http://www.pythonforbeginners.com/files/reading-and-writing-files-in-python
 """
+
+file_object = open('sample.txt','r')
+print file_object.read()
 
 
 
