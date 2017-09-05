@@ -45,7 +45,7 @@ simplenya flowchart adalah sebuah gambar atau chart yang menjelaskan alur dari p
 dari masing-masing gambar/chart bisa mewakili masing-masing proses.
 
 
-ada gambar apa aja sih di flowchart, gw simplein aja yah, kira-kira
+Ada gambar apa aja sih di flowchart, gw simplein aja yah
 """
 
 
