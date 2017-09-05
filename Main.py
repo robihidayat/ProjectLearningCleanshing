@@ -28,6 +28,25 @@ sumber: http://www.pythonforbeginners.com/files/reading-and-writing-files-in-pyt
 
 file_object = open('sample.txt','r')
 print file_object.read()
+"""
+Program diatas adalah untuk membuka file dengan metode function open.
+untuk bisa dapat membaca file, metode yang bisa dipakai adalah read.
+"""
+
+"""
+Buat FlowChart Baru Program
+Setelah dipikir-pikir, untuk memahami sebuah logic, kita jangan langsung terjun langsung ke sebuah code,
+hal pertama yang harus dipikirkan adalah bagaimana kita membuat sebuah potongan-potongan logic menjadi sebuah
+satu kesatuan logic, kita sebut saja sebagai master logic.
+
+
+untuk itu perlu belajar dulu ke flow chart.
+simplenya flowchart adalah sebuah gambar atau chart yang menjelaskan alur dari proses sebuah algoritma.
+dari masing-masing gambar/chart bisa mewakili masing-masing proses.
+
+
+ada gambar apa aja sih di flowchart, gw simplein aja yah, kira-kira
+"""
 
 
 
